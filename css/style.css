@@ -160,12 +160,10 @@ body {
     color: #0b0c0d;
     opacity: 0.7;
 }
-
 .owl-item {
     max-height: 365px;
     max-width: 480px;
 }
-
 .footer {
     padding-top: 85px;
     font-family: 'Roboto', sans-serif;
@@ -195,6 +193,9 @@ body {
 .sitemap__list {
     padding-top: 15px;
     position: relative;
+}
+.sitemap__list a:hover {
+    color: #962323;
 }
 .sitemap__list a {
     color: #fff;
@@ -248,6 +249,9 @@ body {
     color: #fff;
     letter-spacing: 1.6px;
     padding-left: 50px;
+}
+.socs__item:hover {
+    color: #962323;
 }
 .menu-btn {
     display: none;
